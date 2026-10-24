@@ -1,5 +1,7 @@
 # UK Wind Power Forecast & Accuracy Dashboard
 
+> **Live Public Application:** [https://frontend-swi4.vercel.app/](https://frontend-swi4.vercel.app/)
+
 A production-grade analytics platform built for UK electricity utility trading and purchasing desks. Evaluates Day-Ahead wholesale market wind generation forecasts against official metered outturn data from Elexon Insights Solution (BMRS) for **January 2026**.
 
 ---
@@ -358,9 +360,9 @@ The application is structured for zero-friction deployment to Vercel (Frontend) 
    * `VITE_API_BASE_URL`: `https://your-backend-service.herokuapp.com` (or Render URL)
 5. Deploy.
 
-*Public Sample Deployment Placeholder:*
-* Frontend: `https://wind-forecast-dashboard.vercel.app` (Configure after account connection)
-* Backend: `https://wind-forecast-api.herokuapp.com`
+### Live Deployed Application
+* **Frontend (Vercel):** [https://frontend-swi4.vercel.app/](https://frontend-swi4.vercel.app/)
+* **Backend (Render):** Deployed using root `Dockerfile` connected to this repository.
 
 ---
 
